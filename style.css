@@ -1,0 +1,169 @@
+*{
+    font-family: "Sen", sans-serif;
+}
+body{
+    background-color: black;
+}
+header{
+ 
+}
+nav{
+  display:flex;
+  gap:70%;
+}
+nav>ul{
+    position:relative;
+    display:flex;
+    gap:22px;
+    float:right;
+    color:white;
+    list-style-type: none;
+}
+nav>ul>li{
+    display:inline-block;
+    font-size:17px;
+    font-weight: bold;
+   cursor:pointer;
+}
+nav>ul>li:hover{
+    transform: scale(1.1);
+}
+select{
+    outline: none;
+    cursor:pointer;
+    background-color: black;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    color:white;
+}
+option
+{   border:none;
+    outline:none;
+    background-color: gray;
+    color:black;
+}
+.interactarea{
+    margin-top: 30px;
+    display:flex;
+    gap:100px;
+ 
+}
+.interactarea>div{
+    background-color: #4e4f556c;
+    border-radius: 10px;
+}
+.sidebar{
+    padding:30px;
+  
+    display:flex;
+    gap:0;
+    flex-direction: column-reverse;
+    height: 60vh;
+}
+.sidebar>ul{
+    list-style-type: none;
+    margin: auto;
+    gap:8px;
+    justify-content: end;
+    display:flex;
+    flex-direction: column;
+    padding:0;
+}
+.sidebar>ul>li{
+ margin: auto;
+ cursor:pointer;
+ color:white;
+ background-color: black;
+ padding:5px;
+ border-radius: 5px;
+
+
+}
+.sidebar>ul>li:hover{
+
+    background-color:white;
+    color:black;
+}
+
+.interface>div{
+    display:flex;
+    flex-direction: row-reverse;
+    
+}
+.interface>div>img{
+   margin:auto;  
+   width: 30px;
+   margin-left:10px;
+   margin-right: 0;
+height: auto;
+}
+hr{
+    width:inherit;
+
+    padding:0;
+    margin:0;
+}
+.outer_interface{
+    display:flex;
+    width: 75vw;
+    flex-direction: column;
+   height: inherit;
+}
+input{
+
+border:none;
+border-radius: 5px;
+outline: none;
+height: 25px;
+width: 50vw;
+}
+button{
+    color:white;
+    background-color: black;
+    outline:none;
+    border-radius:5px;
+    border: white solid 1px;
+    position: relative;
+    height: 25px;
+    display: inline-block;
+}
+.interface>div>p{
+    background-color: white;
+    padding: 5px;
+    border-radius:5px;
+    color: black;
+   display:inline-block;
+    width:50%;
+}
+.search_area{
+position: absolute;
+bottom: -0.5%;
+}
+.search_area>div{
+ margin: auto;
+
+}
+.outer_interface{
+    border-radius: 10px;
+    height: auto;
+}
+.bot_interface>div>img{
+    margin:auto;  
+    width: 30px;
+    margin-left:10px;
+    margin-right: 0;
+ height: auto;
+ }
+.bot_interface>div{
+  display:flex;
+  gap: 10px;
+}
+.bot_interface>div>p{
+    background-color: grey;
+    padding: 5px;
+    border-radius:5px;
+    color: white;
+   display:inline-block;
+ 
+}
